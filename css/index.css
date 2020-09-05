@@ -1,0 +1,668 @@
+/*首页主体模块制作*/
+.main {
+	width: 980px;
+	height: 456px;
+	margin-top: 10px;
+	margin-left: 220px;
+
+}
+
+/*轮播图样式*/
+
+.main .focus {
+	float: left;
+	width: 721px;
+	position: relative;
+}
+
+.main .focus .prev, .main .focus .next{
+	width: 25px;
+	height: 25px;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 1
+}
+
+.main .focus .prev {
+	position: absolute;
+	border-radius: 0px 12px 12px 0px;
+	left: 0;
+	top:223px;
+
+
+}
+
+.main .focus .next {
+	position: absolute;
+	border-radius: 12px 0px 0px 12px;
+	right: 0;
+	top: 223px;
+}
+
+.icon-chevron_left_24px, .icon-chevron_right_24px {
+	font-size: 16px;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.main .focus .promo_nav {
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	border-radius: 6px;
+	bottom: 15px;
+	width: 70px;
+	height: 13px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.main .focus .promo_nav li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin: 3px;
+}
+
+/*轮播图右侧模块样式*/
+.main .newsflash {
+	float: right;
+	margin-left: 10px;
+	width: 249px;
+	height: 456px;
+}
+
+.main .newsflash .news {
+	width: 250px;
+	height: 164px;
+	border: 1px solid #e4e4e4;
+	background-color: #ffffff;
+}
+
+.main .newsflash .news .news_hd {
+	padding: 0 14px;
+	height: 31px;
+	line-height: 31px;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+.main .newsflash .news .news_hd h5 {
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.main .newsflash .news .news_hd p {
+	float: right;
+	font-size: 12px;
+	color: #333333;
+}
+
+p.icon-chevron_right_24px {
+	font-size: 12px;
+	color: #333333;
+}
+
+.main .newsflash .news .news_bd {
+	padding-top: 11px;
+	padding-left: 16px;
+}
+.main .newsflash .news .news_bd ul li {
+	line-height: 24px;
+	/*设置超出一行...显示*/
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+}
+
+.main .newsflash .lifeservice {
+	width: 250px;
+	height: 208px;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.main .newsflash .lifeservice ul li {
+	float: left;
+	width: 62px;
+	height: 69px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+
+}
+
+.main .newsflash .lifeservice ul li a {
+	text-align: center;
+}
+
+.main .newsflash .lifeservice ul li a i {
+	display: inline-block;
+	margin-left: 19px;
+	margin-top: 12px;
+	width: 27px;
+	height: 27px;
+	
+}
+
+.main .newsflash .lifeservice ul li a span {
+	display: block;
+	margin-top: 7px;
+}
+
+.main .newsflash .lifeservice ul li .service1 i
+{
+	background: url(../images/icons.png) no-repeat -16px -15px;
+}
+.main .newsflash .lifeservice ul li .service2 i
+{
+	background: url(../images/icons.png) no-repeat -76px -15px;
+}
+.main .newsflash .lifeservice ul li .service3 i
+{
+	background: url(../images/icons.png) no-repeat -140px -15px;
+}
+.main .newsflash .lifeservice ul li .service4 i
+{
+	background: url(../images/icons.png) no-repeat -204px -15px;
+}
+.main .newsflash .lifeservice ul li .service5 i
+{
+	background: url(../images/icons.png) no-repeat -16px -87px;
+}
+.main .newsflash .lifeservice ul li .service6 i
+{
+	background: url(../images/icons.png) no-repeat -76px -87px;
+}
+.main .newsflash .lifeservice ul li .service7 i
+{
+	background: url(../images/icons.png) no-repeat -140px -87px;
+}
+.main .newsflash .lifeservice ul li .service8 i
+{
+	background: url(../images/icons.png) no-repeat -204px -87px;
+}
+.main .newsflash .lifeservice ul li .service9 i
+{
+	background: url(../images/icons.png) no-repeat -16px -158px;
+}
+.main .newsflash .lifeservice ul li .service10 i
+{
+	background: url(../images/icons.png) no-repeat -76px -158px;
+}
+.main .newsflash .lifeservice ul li .service11 i
+{
+	background: url(../images/icons.png) no-repeat -140px -158px;
+}
+.main .newsflash .lifeservice ul li .service12 i
+{
+	background: url(../images/icons.png) no-repeat -204px -158px;
+}
+
+.bargain {
+	margin-top: 5px;
+}
+
+.bargain img {
+	width: 250px;
+	height: 79px;
+}
+
+/*推荐模块样式设置*/
+.recomd {
+	margin-top: 10px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+
+.recomd_hd {
+	width: 206px;
+	height: 163px;
+	background-color: #5c5251;
+}
+
+.recomd_hd img {
+	padding-top: 30px;
+	padding-left: 74px;
+}
+
+.recomd_hd p {
+	margin-top: 5px;
+	text-align: center;
+	font-size:18px;
+	color: #ffffff;
+}
+
+.recomd_bd ul li {
+	float: left;
+	position: relative;
+}
+.recomd_bd ul li:nth-child(-n+3)::after{
+	content: '';
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	height:143px;
+	width: 1px;
+	background-color: #dddddd;
+}
+
+/*猜你喜欢样式设置*/
+.favor {
+	margin-top: 30px;
+	height: 262px;
+	border-bottom: : 1px solid #ededed;
+}
+
+.favor .title {
+	height: 30px;
+}
+
+.favor .title h5 {
+	float: left;
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.favor .title p {
+	float: right;
+	margin-right: 18px;
+	font-size: 12px;
+	color: #666666;
+}
+
+.favor .goods {
+	height: 230px;
+	border: 1px solid #ededed;
+}
+
+.favor .goods ul li {
+	position: relative;
+	float: left;
+	width: 199.5px;
+	height: 225px;
+	background-color: #ffffff;
+}
+
+.favor .goods ul li:nth-child(-n+5)::after {
+	content: '';
+	position: absolute;
+	top: 160px;
+	bottom: 8px;
+	right: 0;
+	width: 1px;
+	height: 62px;
+	background-color: #dddddd
+}
+
+.favor .goods ul li a {
+	position: relative;
+
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 199.5px;
+	height: 200px;
+}
+
+
+.favor .goods ul li a p {
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	left: 33px;
+	right: 40px;
+}
+
+.favor .goods ul li span {
+	display: inline-block;
+	height: 15px;
+	width: 199.5px;
+	padding-left: 33px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*有趣区样式设置*/
+.interest {
+	height: 440px;
+	margin-top: 30px;
+}
+
+/*有趣区标题*/
+
+.title h5 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.interest .interesting {
+	margin-top: 3px;
+	height: 410px;
+	border: 1px solid #ededed;
+}
+
+.interest .interesting>div {
+	float: left;
+	position: relative;
+}
+.interesting h3 {
+	height: 38px;
+	border-bottom: 1px dashed #ededed;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	color: #333333;
+}
+
+.top {
+	position: relative;
+	height: 205px;
+	border-bottom: 1px solid #ededed;
+}
+
+.description {
+	position: absolute;
+	top: 65px;
+	left: 8px;
+}
+
+.description h4 {
+	font-size: 16px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.description p {
+	font-size: 12px;
+	color: #333333;
+	margin-bottom: 7px;
+}
+/*有趣区第一格*/
+.interesting_1 {
+	width: 404px;
+	height: 408px;
+	background-color: #b8bddd;
+}
+
+.interesting_1 a p {
+	position: absolute;
+	top: 24px;
+	left: 20px;
+	font-size: 18px;
+	color: #3b468d;
+}
+
+.interesting_1 a img {
+	position: absolute;
+	right: 53px;
+	bottom: 30px;
+}
+/*有趣区第二格*/
+
+.interesting_2 {
+	width: 223px;
+	height: 408px;
+	background-color: #ffffff;
+}
+
+.interesting_2 .top img {
+	position: absolute;
+	right: 0;
+	bottom: 14px;
+}
+
+.interesting_2 .bottom {
+	position: relative;
+	height: 155px;
+}
+
+.interesting_2 .bottom img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*有趣区第三格*/
+.interesting_3 {
+	width: 406px;
+	height: 408px;
+	background-color: #f7f7f7;
+}
+
+.interesting_3 .top .description {
+	position: absolute;
+	top: 70px;
+	left: 50px;
+}
+
+.interesting_3 .top a img {
+	position: absolute;
+	top: 30px;
+	right: 0;
+
+}
+
+.interesting_3 .bottom {
+	width: 406px;
+	height: 155px;
+
+}
+
+.interesting_3 .left_bottom, .interesting_3 .right_bottom {
+	position: relative;
+	width: 203px;
+	height: 155px;
+	border-right: 1px solid #ededed;
+}
+
+.left_bottom a img ,.right_bottom a img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*有趣区第四格*/
+.interesting_4 {
+	width: 164px;
+	height: 408px;
+	background: url(../images/interest7.png) no-repeat;
+}
+
+/*楼层区样式设置*/
+/*家用电器楼层*/
+.jiadian {
+	margin-top: 30px;
+}
+/*家电标题栏样式*/
+.jiadian .box_hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+}
+
+.jiadian .box_hd h5 {
+	float: left;
+	font-size: 18px;
+	font-weight: normal;	
+}
+
+.jiadian .box_hd ul li {
+	float: left;
+	line-height: 30px;
+}
+
+.jiadian .box_hd ul li a {
+	margin: 0 13px;
+}
+
+.box_bd .tab-content .tab-list-item {
+	height: 360px;
+}
+
+.box_bd .tab-content .tab-list-item>div {
+	float: left;
+}
+
+/*家电样板展示1*/
+.item1 {
+	width: 210px;
+	height: 360px;
+	background-color: #f9f9f9;
+}
+
+.item1 ul {
+	width: 210px;
+	height: 97px;
+	padding-left: 12px;
+	
+
+}
+
+.item1 ul li {
+	float: left;
+	margin-right: 10px;
+	width: 88px;
+	height: 33px;
+	text-align: center;
+	line-height: 32px;
+	border-bottom: 1px solid #ededed;
+	
+}
+
+.item1 .a_display1 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 210px;
+	height: 263px;
+	border-color: skyblue;
+}
+
+.item1 .a_display1 p{
+	font-size: 18px;
+}
+	
+
+.item1 .a_display1 p span {
+	font-size: 12px;
+}
+/*家电样板展示2*/
+.item2 {
+	width: 328px;
+	height: 360px;
+	background-color: #aed6d8;
+}
+
+.item2 .a_display2 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 328px;
+	height: 360px;
+}
+
+.item2 .a_display2 p {
+	margin-bottom:35px;
+	font-size: 18px;
+	color: #066c7d;
+}
+
+.item2 .a_display2 p span {
+	font-size: 16px;
+}
+/*家电样板展示3和5*/
+.item3 ,.item4,.item5{
+	width: 220px;
+	height: 360px;
+	border-right: 1px solid #ededed;
+}
+
+ .top3{
+	width: 220px;
+	height: 180px;
+	border-bottom: 1px solid #ededed;
+}
+
+ .bottom3{
+	width: 220px;
+	height: 180px;
+}
+
+ .a_display3 {
+	position: relative;
+	display: block;
+	width: 220px;
+	height: 180px;
+}
+
+ .a_display3 p {
+	position: absolute;
+	top: 23px;
+	left: 18px;
+	font-size: 16px;
+	color: #000000;
+}
+
+ .a_display3 span {
+	position: absolute;
+	top: 46px;
+	left: 18px;
+	font-size: 14px;
+}
+
+ .a_display3 img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*家电样板展示4*/
+.item4 .a_display4 {
+	position: relative;
+	display: block;
+	width: 220px;
+	height: 360px;
+	
+}
+
+.item4 .a_display4 p {
+	position: absolute;
+	top: 70px;
+	left: 45px;
+	font-size: 18px;
+	color: #000000;
+
+}
+
+.item4 .a_display4 span {
+	position: absolute;
+	top: 95px;
+	left: 30px;
+	font-size: 16px;
+	color: #999999;
+}
+
+.item4 .a_display4 img {
+	position: absolute;
+	left: 25px;
+	bottom: 45px;
+}
+
+.logo_jiadian {
+	margin-top: 30px;
+}
+
+/*热门疯抢模块样式*/
+.hot {
+	height: 360px;
+	margin-top: 30px;
+	
+}
+
+.hot .content {
+	position: relative;
+	height: 283px;
+	border: 1px solid #ededed;
+	background-image: url(../upload/hot_03.jpg);
+}
+

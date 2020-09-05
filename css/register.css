@@ -1,0 +1,171 @@
+
+.register {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*头部样式*/
+.register .header {
+	padding-top: 10px;
+	border-bottom: 2px solid #c81623;
+}
+
+.register_body {
+	height: 523px;
+}
+
+.register_body .title {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #ececec;
+}
+
+.register_body .title h4 {
+	float: left;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.register_body .title p {
+	float: right;
+	font-size: 14px;
+	color: #333333;
+}
+
+.register_body .title p a {
+	color: #c81623;
+}
+
+.register_body .reg_form {
+	width: 600px;
+	margin: 50px auto 0;
+}
+
+.register_body .reg_form ul li {
+	height: 36px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.register_body .reg_form ul li label {
+	display: inline-block;
+	width: 88px;
+	height: 36px;
+	text-align: right;
+}
+
+.register_body .reg_form ul li input {
+	margin-right: 3px;
+	width: 242px;
+	height: 36px;
+	border: 1px solid #cccccc;
+}
+
+.register_body .reg_form ul li .error_info {
+	font-size: 12px;
+	color: #df3033
+}
+
+.register_body .reg_form ul li .success_info {
+	font-size: 12px;
+	color: #40b83f;
+}
+
+
+.register_body .reg_form ul li span>div {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.register_body .reg_form ul li span .error {
+	vertical-align: middle;
+	background-image: url(../images/error_03.png);
+}
+
+.register_body .reg_form ul li span .success {
+	vertical-align: middle;
+	background-image: url(../images/success.png);
+}
+/*安全程度按钮样式*/
+
+.register_body .reg_form ul .safe {
+	padding-left: 165px;
+
+}
+
+.register_body .reg_form ul .safe em {
+	padding: 0 10px;
+	margin-right: 1px;
+	color: #ffffff;
+}
+
+.register_body .reg_form ul .safe .ruo {
+	background-color: #de1111;
+}
+
+.register_body .reg_form ul .safe .zhong {
+	background-color: #40b83f;
+}
+
+.register_body .reg_form ul .safe .qiang {
+	background-color: #f79100;
+}
+
+/*隐私协议样式*/
+.register_body .reg_form .privacy {
+	height: 36px;
+	padding-left: 84px;
+}
+
+.register_body .reg_form .privacy span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.register_body .reg_form .privacy a {
+	display: inline-block;
+	margin-left: 5px;
+	color: #1ba1e6;
+}
+
+.register_body .reg_form .submit {
+	width: 200px;
+	margin-left: 100px;
+	height: 36px;
+	line-height: 36px;
+}
+
+/*提交注册按钮*/
+.submit button {
+	display: inline-block;
+	width: 200px;
+	height: 36px;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #c81623;
+}
+
+/*注册页面footer样式*/
+ .mod_copyright {
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
+
+ .mod_copyright .links{
+	margin-top: 19px;
+}
+ .mod_copyright .links a{
+	margin-right: 12px;
+	margin-left: 12px;
+}
+ .mod_copyright p {
+	margin-top: 13px;
+	line-height: 20px;
+}
+
+
